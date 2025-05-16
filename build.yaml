@@ -20,11 +20,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: cool642tb_R,rgbled_adapter
+    shield: "cool642tb_R rgbled_adapter"
     snippet: studio-rpc-usb-uart
     artifact-name: cool642tb_R_rgbled
   - board: seeeduino_xiao_ble
-    shield: cool642tb_L,rgbled_adapter
+    shield: "cool642tb_L rgbled_adapter"
     artifact-name: cool642tb_L_rgbled
   - board: seeeduino_xiao_ble
     shield: settings_reset
