@@ -102,10 +102,10 @@
 
         ARROW {
             bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)     &mkp MB3        &kp O            &kp LC(LG(RIGHT_ARROW))
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &mkp MB4                &mkp MB1        &kp UP_ARROW    &mkp MB2         &mkp MB5
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                                              &kp BSPC
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp LC(LG(LEFT_ARROW))  &kp LG(TAB)     &mkp MB3        &kp O            &kp LC(LG(RIGHT_ARROW))
+&kp A         &kp S         &kp D         &kp F         &kp G         &kp N1  &kp N2  &mkp MB4                &mkp MB1        &kp UP_ARROW    &mkp MB2         &mkp MB5
+&kp Z         &kp X         &kp C         &kp V         &kp B         &kp N3  &kp N4  &kp N                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SLASH
+&kp RSHIFT    &kp LCTRL     &kp LGUI      &kp LALT      &lt 1 SPACE   &kp N5  &kp N6  &lt 2 SPACE                                                              &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
